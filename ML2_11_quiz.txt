@@ -1,0 +1,241 @@
+WEEK 11: PRACTICAL LLM INTEGRATION & API DEVELOPMENT - QUIZ QUESTIONS
+
+1. What is a key advantage of using LLM APIs over running models directly?
+   a) Lower cost
+   b) Better accuracy
+   c) Abstraction of deployment complexity
+   d) Faster response times
+
+2. Which parameter typically controls the randomness of LLM outputs?
+   a) Max tokens
+   b) Temperature
+   c) Presence penalty
+   d) Top-p sampling
+
+3. What is the typical pricing model for LLM APIs?
+   a) Fixed monthly fee
+   b) Per-request billing
+   c) Per-token billing
+   d) Compute-time billing
+
+4. What is the primary purpose of a system prompt?
+   a) To improve response speed
+   b) To reduce token usage
+   c) To set context and behavior parameters
+   d) To handle error conditions
+
+5. In few-shot prompting, what is a key consideration?
+   a) Using as many examples as possible
+   b) Keeping examples brief
+   c) Using only failed examples
+   d) Balancing example quality and context window size
+
+6. What is a common approach for ensuring consistent output formats?
+   a) Post-processing only
+   b) Using specific format instructions in prompts
+   c) Manual review
+   d) Multiple model calls
+
+7. What is the recommended strategy for handling rate limit errors?
+   a) Immediate retry
+   b) Exponential backoff
+   c) Fixed delay retry
+   d) Abort operation
+
+8. How should token limits be managed in conversations?
+   a) Ignore them
+   b) Clear history regularly
+   c) Track usage and truncate as needed
+   d) Use smaller prompts only
+
+9. What is a key aspect of chain-of-thought prompting?
+   a) Faster processing
+   b) Lower token usage
+   c) Step-by-step reasoning
+   d) Reduced accuracy
+
+10. What is the primary purpose of validation checkpoints in chain-of-thought?
+    a) Improve speed
+    b) Reduce costs
+    c) Catch errors early
+    d) Increase token usage
+
+11. What is a key component of synoptic tagging workflows?
+    a) Manual review
+    b) Entity extraction
+    c) Data compression
+    d) Model training
+
+12. How do LLMs handle pattern recognition across documents?
+    a) Only exact matches
+    b) Understanding variations in language
+    c) Binary comparison
+    d) Fixed rule sets
+
+13. What is a primary purpose of metadata generation?
+    a) Reduce storage costs
+    b) Improve model accuracy
+    c) Enhance searchability
+    d) Speed up processing
+
+14. What should automated validation frameworks verify?
+    a) Only structural correctness
+    b) Only semantic correctness
+    c) Both structural and semantic correctness
+    d) Only format compliance
+
+15. When should human review be triggered in LLM systems?
+    a) For all outputs
+    b) Never
+    c) When confidence falls below thresholds
+    d) Only for errors
+
+16. What is a key aspect of effective human-in-the-loop implementation?
+    a) Reviewing all responses
+    b) Clear escalation criteria
+    c) Automated decisions
+    d) Minimal human interaction
+
+17. What is the primary purpose of caching in LLM applications?
+    a) Reduce accuracy
+    b) Improve responsiveness
+    c) Increase token usage
+    d) Complicate processing
+
+18. What must be considered when implementing batch processing?
+    a) Only throughput
+    b) Only cost
+    c) User latency and failure handling
+    d) Server location
+
+19. What is crucial for request parallelization?
+    a) Maximum speed
+    b) Minimum cost
+    c) Careful orchestration
+    d) Single threading
+
+20. What should comprehensive logging systems track?
+    a) Only errors
+    b) Only successes
+    c) Multiple metrics including LLM-specific ones
+    d) User information only
+
+21. What is a key performance metric for LLM applications?
+    a) Server uptime only
+    b) Response latency at various percentiles
+    c) Network bandwidth
+    d) Storage usage
+
+22. What should anomaly detection systems monitor?
+    a) Only error rates
+    b) Only response times
+    c) Multiple patterns including usage and quality
+    d) Server health only
+
+23. How should usage optimization be approached?
+    a) Minimize all usage
+    b) Maximize throughput
+    c) Careful attention to token patterns
+    d) Ignore costs
+
+24. What level should budget controls be implemented at?
+    a) Only organization level
+    b) Only user level
+    c) Multiple levels including user and project
+    d) System level only
+
+25. What is important for cost attribution systems?
+    a) Only total costs
+    b) Only user costs
+    c) Detailed tracking across features
+    d) Monthly reporting
+
+26. How should prompt templates be managed?
+    a) Ad hoc basis
+    b) Version control and documentation
+    c) Single version only
+    d) No management needed
+
+27. What is key for template management systems?
+    a) Fixed templates only
+    b) No versioning
+    c) Dynamic assembly and performance tracking
+    d) Manual updates
+
+28. How should dynamic content insertion be handled?
+    a) No validation
+    b) Careful escaping and validation
+    c) Random insertion
+    d) Manual insertion only
+
+29. What is a crucial aspect of fallback strategies?
+    a) Single model only
+    b) Multiple model approaches
+    c) No fallbacks
+    d) Manual intervention
+
+30. How should graceful degradation be implemented?
+    a) System shutdown
+    b) Maintain core functionality
+    c) Full functionality only
+    d) Ignore errors
+
+31. What is important for error recovery mechanisms?
+    a) Single retry attempt
+    b) No retries
+    c) Robust and well-tested approaches
+    d) Manual recovery only
+
+32. How should prompt testing be approached?
+    a) Manual testing only
+    b) No testing needed
+    c) Systematic approach like software testing
+    d) Random testing
+
+33. What should integration testing verify?
+    a) Individual components only
+    b) End-to-end functionality
+    c) User interface only
+    d) Network connectivity
+
+34. What is the purpose of regression testing?
+    a) Performance testing only
+    b) Prevent recurrence of fixed issues
+    c) User acceptance
+    d) Load testing
+
+35. How should response validation be handled?
+    a) Manual only
+    b) No validation
+    c) Automated with multiple checks
+    d) Single check
+
+36. What should be considered in prompt design?
+    a) Length only
+    b) Cost only
+    c) Multiple factors including efficiency
+    d) Speed only
+
+37. How should conversation history be managed?
+    a) Keep everything
+    b) Delete everything
+    c) Strategic management based on context
+    d) Ignore history
+
+38. What is crucial for production monitoring?
+    a) Basic metrics only
+    b) Comprehensive metrics and alerts
+    c) No monitoring
+    d) Manual checking
+
+39. How should API keys be managed?
+    a) Public storage
+    b) No management
+    c) Secure and rotated regularly
+    d) Single key only
+
+40. What should be included in error handling?
+    a) Basic retries only
+    b) No error handling
+    c) Comprehensive strategy with multiple approaches
+    d) Manual handling only 

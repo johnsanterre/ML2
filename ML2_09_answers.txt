@@ -1,0 +1,44 @@
+WEEK 9: FROM SUPERVISED TO GENERATIVE LEARNING - ANSWER KEY
+
+1. b) It requires substantial human effort and expertise
+2. c) Experienced radiologists must spend many hours annotating scans
+3. b) The pool of qualified annotators is small
+4. a) They learn to reproduce the underlying data distribution
+5. b) It creates its own supervisory signals from raw data
+6. c) Explicit models directly learn probability distributions
+7. b) To gradually destroy structure in data
+8. b) It determines how information is destroyed
+9. b) Markov chain property
+10. c) Pure noise
+11. b) It estimates the gradient of log probability density
+12. c) To help the model understand the current noise level
+13. b) Image generation
+14. a) The discrete nature of text
+15. c) Fine-grained control over generation
+16. b) They create self-supervised learning signals
+17. b) By hiding parts of the input text
+18. b) It helps learn multiple scales of abstraction
+19. b) Creating and distinguishing between positive and negative pairs
+20. b) Different views of the same instance
+21. c) Comparison against more negative examples
+22. b) Denoising is a continuous form of masked prediction
+23. b) They learn representations at multiple scales
+24. b) It allows for more control over generation
+25. b) Gaussian noise
+26. b) Starts slow and accelerates
+27. c) Simplified learning process
+28. c) Gradually step by step
+29. c) Helps identify noise level
+30. b) Discrete nature of text
+31. b) From the data's inherent structure
+32. b) Augmentation creates different views for contrast
+33. b) Through state-of-the-art results
+34. c) Gradual reconstruction
+35. b) Through time conditioning
+36. c) Relationship learning between modalities
+37. c) By forcing understanding of context
+38. c) Larger effective batch size
+39. b) They offer more controlled generation
+40. c) Creating meaningful learning tasks from the data itself
+
+Note: All answers are derived directly from the content in the Week 9 textbook material. Each answer represents the most accurate and complete response based on the material covered in the course. 

@@ -1,0 +1,257 @@
+# ML2 Week 3 Quiz: Building Real-World Neural Networks
+
+## Multiple Choice Questions (200 points, 5 points each)
+
+Data Understanding & Preprocessing:
+
+1. Why do we use StandardScaler on the California Housing Dataset?
+   a) To convert strings to numbers
+   b) To ensure all features are on similar scales for better network training
+   c) To reduce the number of features
+   d) To handle missing values
+
+2. Which feature in the California Housing Dataset typically has the highest variance?
+   a) MedInc
+   b) Population
+   c) AveRooms
+   d) Latitude
+
+3. When calculating correlation matrices, why do we include the target variable?
+   a) To identify multicollinearity
+   b) To find features most predictive of house prices
+   c) To normalize the data
+   d) To handle missing values
+
+4. What's the primary reason for splitting data into train/validation/test sets?
+   a) To train three different models
+   b) To have more data points
+   c) To properly evaluate model performance without overfitting
+   d) Because PyTorch requires it
+
+Model Architecture:
+
+5. Why use ReLU activation functions in the housing price model?
+   a) They're computationally efficient
+   b) They prevent vanishing gradients and add non-linearity
+   c) They ensure outputs are positive
+   d) They're easier to implement
+
+6. What's the purpose of the first linear layer's dimensions (input_dim, 64)?
+   a) To reduce memory usage
+   b) To create a bottleneck
+   c) To learn higher-dimensional representations
+   d) To match the batch size
+
+7. Why does our final layer output dimension equal 1?
+   a) To save memory
+   b) Because we're predicting a single value (house price)
+   c) To reduce overfitting
+   d) Because it's required by PyTorch
+
+8. What happens if we remove all ReLU activations?
+   a) The model trains faster
+   b) The model becomes linear
+   c) The model uses less memory
+   d) The model performs better
+
+Training Process:
+
+9. Why do we zero the gradients in each training iteration?
+   a) To save memory
+   b) To prevent gradient accumulation from previous batches
+   c) To make training faster
+   d) To reduce overfitting
+
+10. What's the purpose of model.train()?
+    a) To start training
+    b) To enable dropout and batch normalization training behavior
+    c) To reset the model
+    d) To compile the model
+
+Training Process (continued):
+
+11. What's the optimal initial learning rate for most housing price prediction models?
+    a) 1.0
+    b) 0.1
+    c) 0.01
+    d) 0.001
+
+12. Which batch size typically provides a good balance of speed and stability?
+    a) 1
+    b) 32
+    c) 512
+    d) The entire dataset
+
+13. Why might we choose Adam over basic SGD?
+    a) It's newer
+    b) It adapts learning rates and includes momentum
+    c) It uses less memory
+    d) It's faster to implement
+
+14. When should we apply gradient clipping?
+    a) Always
+    b) When gradients are exploding
+    c) When using ReLU
+    d) When using small batches
+
+15. What's the purpose of early stopping?
+    a) To save computation time
+    b) To prevent overfitting
+    c) To reduce memory usage
+    d) To speed up training
+
+16. How often should we validate during training?
+    a) After each batch
+    b) After each epoch
+    c) Once at the end
+    d) Every 100 batches
+
+17. What's the main benefit of learning rate scheduling?
+    a) Faster initial training
+    b) Better final convergence
+    c) Less memory usage
+    d) Simpler implementation
+
+18. When should we save model checkpoints?
+    a) Only at the end
+    b) When validation loss improves
+    c) After each epoch
+    d) When training loss improves
+
+19. What's the purpose of the validation set during training?
+    a) To train the model faster
+    b) To tune hyperparameters
+    c) To evaluate final performance
+    d) To increase dataset size
+
+20. Which loss function is most appropriate for house price prediction?
+    a) Cross-entropy
+    b) Mean Squared Error
+    c) Binary cross-entropy
+    d) Hinge loss
+
+Model Evaluation:
+
+21. How do we interpret RMSE in our housing model?
+    a) Percentage of correct predictions
+    b) Average price prediction error in the same units as house prices
+    c) Model accuracy score
+    d) Relative model performance
+
+22. What does an R-squared value of 0.8 indicate?
+    a) 80% prediction accuracy
+    b) 80% of variance in prices is explained by the model
+    c) 80% of predictions are correct
+    d) Model is 80% complete
+
+23. Why use mean absolute error (MAE) alongside RMSE?
+    a) It's more accurate
+    b) It's less sensitive to outliers
+    c) It's easier to compute
+    d) It's required by PyTorch
+
+24. When is cross-validation most useful?
+    a) With very large datasets
+    b) With small to medium-sized datasets
+    c) Only for classification
+    d) Only for time series
+
+25. What indicates potential overfitting?
+    a) Training loss higher than validation loss
+    b) Validation loss higher than training loss
+    c) Equal training and validation loss
+    d) Decreasing validation loss
+
+26. How should we handle outliers in the housing dataset?
+    a) Always remove them
+    b) Never remove them
+    c) Investigate and make informed decisions
+    d) Average them out
+
+27. What's the best way to compare different model architectures?
+    a) Training loss
+    b) Training time
+    c) Validation metrics on same data split
+    d) Model size
+
+28. When should we use median absolute error instead of RMSE?
+    a) Always
+    b) When outliers significantly affect results
+    c) When using small datasets
+    d) When using large batches
+
+29. How can we estimate model prediction uncertainty?
+    a) Using batch size
+    b) Using learning rate
+    c) Using prediction intervals
+    d) Using model size
+
+30. What's the primary purpose of residual analysis?
+    a) To speed up training
+    b) To identify systematic prediction errors
+    c) To reduce model size
+    d) To increase accuracy
+
+Deployment:
+
+31. When saving a model, what must we save alongside the weights?
+    a) Training data
+    b) Validation data
+    c) Preprocessing parameters (like StandardScaler)
+    d) Learning rate
+
+32. How should we handle missing values during inference?
+    a) Reject the input
+    b) Use the same strategy as during training
+    c) Use zeros
+    d) Use random values
+
+33. What's the best way to monitor model performance in production?
+    a) Retraining regularly
+    b) Tracking inference time
+    c) Monitoring prediction errors and distribution shifts
+    d) Checking model size
+
+34. How should we handle prediction requests in production?
+    a) Always batch them
+    b) Always process individually
+    c) Based on application requirements and latency needs
+    d) Based on model size
+
+35. What's the primary consideration for model versioning?
+    a) File size
+    b) Training time
+    c) Reproducibility and rollback capability
+    d) Number of parameters
+
+36. How should we handle model updates in production?
+    a) Update immediately
+    b) Never update
+    c) Use A/B testing and gradual rollout
+    d) Update weekly
+
+37. What's the best practice for model backup?
+    a) Save only weights
+    b) Save entire training history
+    c) Save weights, preprocessing parameters, and configuration
+    d) Save training data
+
+38. How should we handle out-of-distribution inputs?
+    a) Always make predictions
+    b) Always reject
+    c) Implement detection and handling strategy
+    d) Use default values
+
+39. What's most important for scaling the inference pipeline?
+    a) GPU availability
+    b) Model size
+    c) Load balancing and resource management
+    d) Training time
+
+40. How should we document the deployed model?
+    a) No documentation needed
+    b) Only code comments
+    c) Full specifications including training data, parameters, and limitations
+    d) Only model architecture
+
+Would you like me to write out the remaining 30 questions in detail? 

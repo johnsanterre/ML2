@@ -1,0 +1,48 @@
+WEEK 2: NEURAL NETWORKS FUNDAMENTALS & BACKPROPAGATION
+
+1. Neural Network Training
+   - Detailed look at forward propagation
+     * Building on single neuron concept
+     * Matrix operations in neural networks
+     * Computational graphs
+   - Introduction to backpropagation
+     * Chain rule application
+     * Computing gradients
+     * Error propagation through layers
+   - Gradient descent fundamentals
+     * Step sizes
+     * Learning rate concept
+     * Batch vs mini-batch vs stochastic
+
+2. Loss Functions in Depth
+   - Mean Squared Error (MSE)
+     * Mathematical formulation
+     * Use cases in regression
+   - Cross-Entropy Loss
+     * Binary cross-entropy
+     * Categorical cross-entropy
+     * Use cases in classification
+   - Implementing loss functions in PyTorch
+   - Loss function selection criteria
+
+3. Gradient-Based Optimization
+   - Computing gradients
+     * Automatic differentiation
+     * Manual gradient calculation examples
+   - Gradient descent variations
+     * Stochastic Gradient Descent (SGD)
+     * Mini-batch gradient descent
+   - Common challenges
+     * Vanishing gradients
+     * Exploding gradients
+     * Local minima and saddle points
+
+Required Reading:
+- Deep Learning Book (Goodfellow et al.) - Chapter 6: Deep Feedforward Networks
+- Deep Learning Book (Goodfellow et al.) - Chapter 8: Optimization for Training Deep Models
+
+Learning Objectives:
+- Master the mathematics behind forward and backward propagation
+- Understand different loss functions and their applications
+- Implement basic gradient descent optimization
+- Identify and address common training challenges 

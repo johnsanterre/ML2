@@ -1,0 +1,48 @@
+WEEK 3: BUILDING A REAL-WORLD HOUSING PRICE PREDICTOR
+
+1. Problem Setup & Data Exploration
+   - California Housing Dataset introduction
+     * Understanding the features
+     * Visualization of relationships
+     * Statistical analysis
+   - Data preprocessing pipeline
+     * Feature scaling
+     * Handling missing values
+     * Train/validation/test splits
+
+2. Model Development
+   - Building the network architecture
+     * Input layer design
+     * Hidden layer configuration
+     * Output layer for regression
+   - Implementing in PyTorch
+     * Dataset class creation
+     * DataLoader setup
+     * Model class definition
+   - Training loop implementation
+     * Forward pass
+     * Backward pass
+     * Optimization step
+
+3. Model Evaluation & Improvement
+   - Performance metrics
+     * MSE vs MAE
+     * R-squared evaluation
+   - Iterative improvement
+     * Learning rate tuning
+     * Architecture adjustments
+     * Regularization application
+   - Model validation
+     * Overfitting detection
+     * Cross-validation implementation
+     * Error analysis
+
+Required Reading:
+- Deep Learning Book (Goodfellow et al.) - Chapter 11: Practical Methodology
+- California Housing Dataset Documentation
+
+Learning Objectives:
+- Build a complete deep learning pipeline from scratch
+- Apply Week 1-2 concepts to a real problem
+- Implement proper validation techniques
+- Debug and improve model performance 

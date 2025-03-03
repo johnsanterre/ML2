@@ -1,0 +1,184 @@
+
+WEEK 8: CONVOLUTIONAL NEURAL NETWORKS - QUIZ QUESTIONS
+
+1. What is the primary advantage of using convolutional layers over fully connected layers for image processing?
+   a) Faster training time
+   b) Parameter sharing and spatial relationships
+   c) Less memory usage
+   d) Simpler implementation
+
+2. In a convolutional layer, what does the kernel size represent?
+   a) The number of filters
+   b) The spatial extent of connectivity
+   c) The stride length
+   d) The output size
+
+3. What is the purpose of padding in CNNs?
+   a) To increase training speed
+   b) To preserve spatial dimensions
+   c) To reduce parameters
+   d) To add regularization
+
+4. Which pooling operation is most commonly used in CNNs?
+   a) Average pooling
+   b) Max pooling
+   c) Min pooling
+   d) Sum pooling
+
+5. What is the main purpose of batch normalization in CNNs?
+   a) To reduce overfitting
+   b) To stabilize training
+   c) To decrease model size
+   d) To increase accuracy
+
+6. What problem do skip connections in ResNet address?
+   a) Overfitting
+   b) Vanishing gradients
+   c) Memory usage
+   d) Training speed
+
+7. In transfer learning, why do we often freeze the pre-trained layers?
+   a) To save memory
+   b) To preserve learned features
+   c) To speed up training
+   d) To reduce model size
+
+8. What is the typical order of operations in a CNN layer?
+   a) Convolution -> ReLU -> BatchNorm
+   b) BatchNorm -> Convolution -> ReLU
+   c) Convolution -> BatchNorm -> ReLU
+   d) ReLU -> Convolution -> BatchNorm
+
+9. What does stride control in a convolutional layer?
+   a) Filter size
+   b) Step size of filter movement
+   c) Number of filters
+   d) Activation function
+
+10. Why is ReLU commonly used in CNNs?
+    a) It's differentiable everywhere
+    b) It prevents vanishing gradients
+    c) It's computationally expensive
+    d) It produces negative values
+
+11. What is the purpose of the flatten operation in CNNs?
+    a) Data augmentation
+    b) Feature extraction
+    c) Converting feature maps to vector form
+    d) Reducing parameters
+
+12. In ResNet, what is added before the activation function?
+    a) Batch normalization
+    b) Skip connection
+    c) Pooling layer
+    d) Dropout
+
+13. What is a feature map in CNNs?
+    a) Input image
+    b) Kernel weights
+    c) Output of convolution
+    d) Training labels
+
+14. Why do we use multiple filters in convolutional layers?
+    a) To detect different features
+    b) To reduce computation
+    c) To prevent overfitting
+    d) To save memory
+
+15. What is the effect of max pooling?
+    a) Increases spatial dimensions
+    b) Reduces spatial dimensions
+    c) Adds parameters
+    d) Changes number of channels
+
+16. In transfer learning, what typically happens to the learning rate?
+    a) Remains constant
+    b) Lower for pre-trained layers
+    c) Higher for all layers
+    d) Randomly adjusted
+
+17. What is the purpose of global average pooling?
+    a) Feature extraction
+    b) Dimension reduction
+    c) Parameter increase
+    d) Data augmentation
+
+18. How does batch normalization help training?
+    a) Reduces number of parameters
+    b) Stabilizes gradients
+    c) Increases model capacity
+    d) Simplifies architecture
+
+19. What determines the depth of a feature map?
+    a) Input image size
+    b) Number of filters
+    c) Kernel size
+    d) Stride value
+
+20. Why use small (e.g., 3x3) kernels in modern CNNs?
+    a) Faster computation
+    b) Better feature hierarchy
+    c) Less memory usage
+    d) Simpler implementation
+
+21. What is the advantage of using residual connections?
+    a) Reduced parameter count
+    b) Easier optimization
+    c) Faster inference
+    d) Smaller model size
+
+22. How does the receptive field change through a CNN?
+    a) Stays constant
+    b) Decreases linearly
+    c) Increases with depth
+    d) Randomly changes
+
+23. What is the purpose of 1x1 convolutions?
+    a) Channel-wise feature mixing
+    b) Spatial feature extraction
+    c) Increasing image size
+    d) Adding noise
+
+24. In transfer learning, why modify the final layer?
+    a) Improve accuracy
+    b) Match new task classes
+    c) Reduce parameters
+    d) Speed up training
+
+25. What is the benefit of using pretrained weights?
+    a) Smaller model size
+    b) Faster training
+    c) Learned feature reuse
+    d) Simpler architecture
+
+26. How does padding='same' affect output size?
+    a) Increases output size
+    b) Decreases output size
+    c) Maintains input size
+    d) Randomly changes size
+
+27. What is the purpose of dilated convolutions?
+    a) Reduce parameters
+    b) Increase receptive field
+    c) Speed up training
+    d) Add regularization
+
+28. Why use multiple convolutional layers?
+    a) Reduce computation
+    b) Build feature hierarchy
+    c) Decrease memory usage
+    d) Simplify training
+
+29. What affects the number of parameters in a convolutional layer?
+    a) Input size only
+    b) Kernel size only
+    c) Number of filters and kernel size
+    d) Stride value only
+
+30. How does data augmentation help CNN training?
+    a) Reduces parameters
+    b) Increases training speed
+    c) Improves generalization
+    d) Decreases model size
+
+[Continue with questions 31-40...] 

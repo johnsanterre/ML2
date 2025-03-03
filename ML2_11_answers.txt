@@ -1,0 +1,44 @@
+WEEK 11: PRACTICAL LLM INTEGRATION & API DEVELOPMENT - ANSWER KEY
+
+1. c) Abstraction of deployment complexity
+2. b) Temperature
+3. c) Per-token billing
+4. c) To set context and behavior parameters
+5. d) Balancing example quality and context window size
+6. b) Using specific format instructions in prompts
+7. b) Exponential backoff
+8. c) Track usage and truncate as needed
+9. c) Step-by-step reasoning
+10. c) Catch errors early
+11. b) Entity extraction
+12. b) Understanding variations in language
+13. c) Enhance searchability
+14. c) Both structural and semantic correctness
+15. c) When confidence falls below thresholds
+16. b) Clear escalation criteria
+17. b) Improve responsiveness
+18. c) User latency and failure handling
+19. c) Careful orchestration
+20. c) Multiple metrics including LLM-specific ones
+21. b) Response latency at various percentiles
+22. c) Multiple patterns including usage and quality
+23. c) Careful attention to token patterns
+24. c) Multiple levels including user and project
+25. c) Detailed tracking across features
+26. b) Version control and documentation
+27. c) Dynamic assembly and performance tracking
+28. b) Careful escaping and validation
+29. b) Multiple model approaches
+30. b) Maintain core functionality
+31. c) Robust and well-tested approaches
+32. c) Systematic approach like software testing
+33. b) End-to-end functionality
+34. b) Prevent recurrence of fixed issues
+35. c) Automated with multiple checks
+36. c) Multiple factors including efficiency
+37. c) Strategic management based on context
+38. b) Comprehensive metrics and alerts
+39. c) Secure and rotated regularly
+40. c) Comprehensive strategy with multiple approaches
+
+Note: All answers are derived from the Week 11 textbook material on Practical LLM Integration & API Development. Each answer represents the most complete and accurate response based on the content covered in the course. 

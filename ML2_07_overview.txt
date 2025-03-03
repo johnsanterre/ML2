@@ -1,0 +1,45 @@
+WEEK 7: INTRODUCTION TO TRANSFORMERS
+
+1. From Static to Contextual Embeddings
+   - Limitations of static embeddings
+     * Word sense ambiguity
+     * Context-dependent meaning
+     * Polysemy problems
+   - Self-attention concept
+     * Query, Key, Value paradigm
+     * Attention weights
+     * Context-aware representations
+
+2. Transformer Architecture Basics
+   - Core components
+     * Multi-head attention
+     * Feed-forward networks
+     * Layer normalization
+   - Positional encoding
+     * Why position matters
+     * Sinusoidal encodings
+     * Learned positions
+
+3. Understanding Self-Attention
+   - Mathematical foundations
+     * Scaled dot-product attention
+     * Parallel computation
+     * Attention masks
+   - Multi-head mechanism
+     * Different representation subspaces
+     * Parallel attention heads
+     * Information combination
+   - Visualization and interpretation
+     * Attention patterns
+     * Head specialization
+     * Position vs content attention
+
+Required Reading:
+- "Attention Is All You Need" (Vaswani et al.)
+- "The Illustrated Transformer" (Alammar)
+
+Learning Objectives:
+- Understand the transition from embeddings to transformers
+- Master the self-attention mechanism
+- Grasp the core components of transformer architecture
+- Visualize and interpret attention patterns 

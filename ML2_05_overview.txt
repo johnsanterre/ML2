@@ -1,0 +1,47 @@
+WEEK 5: AUTOENCODERS & EMBEDDINGS
+
+1. Introduction to Autoencoders
+   - Autoencoder architecture
+     * Encoder structure
+     * Latent space
+     * Decoder structure
+   - Types of autoencoders
+     * Vanilla autoencoders
+     * Undercomplete autoencoders
+     * Denoising autoencoders
+   - Loss functions for autoencoders
+     * Reconstruction loss
+     * Regularization techniques
+
+2. Understanding Embeddings
+   - What are embeddings?
+     * From sparse to dense representations
+     * Dimensionality reduction
+     * Feature learning
+   - Properties of good embeddings
+     * Similarity preservation
+     * Semantic relationships
+     * Distance metrics
+
+3. Practical Applications
+   - Dimensionality reduction
+     * Comparison with PCA
+     * Visualization techniques
+     * t-SNE and UMAP with embeddings
+   - Feature extraction
+     * Transfer learning with encoders
+     * Using embedded representations
+   - Real-world examples
+     * Image compression
+     * Anomaly detection
+     * Data denoising
+
+Required Reading:
+- Deep Learning Book (Goodfellow et al.) - Chapter 14: Autoencoders
+- "Reducing the Dimensionality of Data with Neural Networks" (Hinton & Salakhutdinov)
+
+Learning Objectives:
+- Understand the theory and implementation of autoencoders
+- Master the concept of embeddings and their applications
+- Implement different types of autoencoders in PyTorch
+- Visualize and interpret embedded representations 

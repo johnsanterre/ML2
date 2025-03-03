@@ -1,0 +1,44 @@
+WEEK 10: INTRODUCTION TO LARGE LANGUAGE MODELS - ANSWER KEY
+
+1. b) They couldn't capture long-range dependencies
+2. b) The vanishing gradient problem
+3. b) Self-attention mechanisms
+4. b) Performance improves predictably with increased scale
+5. c) Grown exponentially
+6. c) Both quantity and quality matter
+7. b) Few-shot learning without fine-tuning
+8. c) Predicting the next word in a sequence
+9. a) It uses bidirectional context
+10. b) Filtering low-quality content
+11. b) Model parallelism
+12. b) A memory optimization technique
+13. b) Gradient explosion
+14. b) Adaptation through prompts without parameter updates
+15. b) They improve with scale
+16. b) Performing tasks from instructions alone
+17. c) Specialized head functions
+18. c) Distributed across parameters
+19. b) They become more context-dependent
+20. c) Plausible but incorrect output
+21. b) Logical and mathematical problems
+22. c) In both obvious and subtle ways
+23. c) Syntactic structure
+24. b) Advanced parallelization
+25. c) Diverse representation
+26. c) Via evolving representations
+27. b) Communication overhead
+28. c) Naturally at larger scales
+29. c) Left-to-right attention
+30. c) Token selection patterns
+31. b) Handling abstract semantics
+32. c) Balance of training parameters
+33. c) Include them in context
+34. c) Web-scale volume
+35. b) In capturing different aspects
+36. c) Predictable improvement
+37. b) Via prompt engineering
+38. c) Embedded nature of biases
+39. b) Via attention mechanisms
+40. b) Steady, predictable growth
+
+Note: All answers are derived directly from the content in the Week 10 textbook material. Each answer represents the most accurate and complete response based on the material covered in the course. 

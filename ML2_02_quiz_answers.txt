@@ -1,0 +1,139 @@
+# ML2 Week 2 Quiz: Answer Key
+
+Forward Propagation:
+1. b) Matrix multiplication followed by bias addition
+   - Linear layers perform Wx + b where W is weights, x is input, b is bias
+
+2. b) Returns max(0, x) for each input x
+   - ReLU zeros out negative values, keeps positive values unchanged
+
+3. c) The flow of data between operations
+   - Edges show how data moves between computational nodes
+
+4. b) To use them in backpropagation
+   - Cached values needed to compute gradients during backward pass
+
+Backpropagation:
+5. b) Calculate gradients for each layer
+   - Chain rule enables gradient computation through network layers
+
+6. b) Backward through the network
+   - Gradients flow from output to input during backpropagation
+
+7. c) 1 where input > 0, 0 elsewhere
+   - ReLU's derivative is a step function
+
+8. b) To compute the average gradient
+   - Batch gradients are averaged for stable updates
+
+Loss Functions:
+9. b) Regression tasks
+   - MSE measures squared differences, suitable for continuous values
+
+10. b) 2(y_pred - y_true)/n
+    - Derivative of squared error term divided by batch size
+
+11. b) Classification problems
+    - Cross-entropy measures probability distribution differences
+
+12. b) To prevent log(0)
+    - Log(0) is undefined; epsilon ensures numerical stability
+
+Optimization:
+13. b) The step size in gradient descent
+    - Controls how much weights are updated by gradients
+
+14. b) Exploding gradients
+    - Clips large gradients to prevent unstable updates
+
+15. b) ReLU activation
+    - Designed for ReLU's characteristics
+
+16. b) Clear previous gradient computations
+    - Prevents gradient accumulation between batches
+
+Training Process:
+17. b) Training might diverge
+    - Too large steps can cause unstable training
+
+18. b) Training stability
+    - Normalizes layer inputs for better training
+
+19. b) Adapt the learning rate during training
+    - Adjusts learning rate based on training progress
+
+20. c) Monitor overfitting
+    - Validation set provides unbiased performance estimation
+
+Implementation Details:
+21. b) Intermediate activations
+    - Required for computing gradients during backprop
+
+22. c) Same as weight matrix shape
+    - Gradients match parameter dimensions
+
+23. b) The gradients
+    - Computes gradients through computational graph
+
+24. b) Weights and optimizer state
+    - Needed to resume training from checkpoint
+
+Common Issues:
+25. c) Deep networks use sigmoid/tanh
+    - Sigmoid/tanh derivatives can be very small
+
+26. b) Low training loss, high validation loss
+    - Classic sign of overfitting
+
+27. a) NaN values in loss
+    - Extremely large gradients lead to numerical instability
+
+28. b) Vanishing gradients
+    - ReLU derivative is 0 or 1, helping gradient flow
+
+Advanced Concepts:
+29. b) Helps escape local minima
+    - Momentum carries optimization through local optima
+
+30. b) Stabilizes training
+    - Normalizes layer inputs for better training
+
+31. b) Reduces overfitting
+    - Randomly drops neurons during training
+
+32. c) Balances speed and stability
+    - Trade-off between computation and convergence
+
+Practical Considerations:
+33. b) Get a simple version working
+    - Start simple, then add complexity
+
+34. b) Training stability
+    - Gradually increases learning rate for stable start
+
+35. c) Overfitting
+    - Stops training when validation performance degrades
+
+36. b) Regularization
+    - Penalizes large weights to prevent overfitting
+
+Debugging:
+37. b) Learning rate
+    - Too large learning rate often causes NaN
+
+38. a) Using a larger learning rate
+    - Slow training often due to small learning rate
+
+39. c) Check learning rate and architecture
+    - Most common issues affecting validation performance
+
+40. c) Gradient computation
+    - Most complex part of implementation
+
+Bonus:
+41. Key points for custom backward pass:
+    - Derive analytical gradient expressions
+    - Implement chain rule correctly
+    - Handle all input shapes
+    - Ensure numerical stability
+    - Test with gradient checking 

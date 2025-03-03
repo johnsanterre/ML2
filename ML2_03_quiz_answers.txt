@@ -1,0 +1,126 @@
+# ML2 Week 3 Quiz: Answer Key
+
+Data Understanding & Preprocessing:
+1. b) To ensure all features are on similar scales for better network training
+   - Different features have different scales which can affect model training
+
+2. b) Population
+   - Population values have the highest variance in the dataset
+
+3. b) To find features most predictive of house prices
+   - Helps identify which features have strongest relationships with target
+
+4. c) To properly evaluate model performance without overfitting
+   - Separate validation set provides unbiased performance estimation
+
+Model Architecture:
+5. b) They prevent vanishing gradients and add non-linearity
+   - ReLU provides necessary non-linearity without gradient issues
+
+6. c) To learn higher-dimensional representations
+   - Wider layers help capture complex patterns in data
+
+7. b) Because we're predicting a single value (house price)
+   - Regression task requires single output value
+
+8. b) The model becomes linear
+   - Without activation functions, compositions of linear layers remain linear
+
+Training Process:
+9. b) To prevent gradient accumulation from previous batches
+   - Gradients need to be reset for each new batch
+
+10. b) To enable dropout and batch normalization training behavior
+    - Different behavior needed during training vs evaluation
+
+11. d) 0.001
+    - Common starting point for neural networks
+
+12. b) 32
+    - Good balance between computation and gradient stability
+
+13. b) It adapts learning rates and includes momentum
+    - Adaptive optimization often works better than basic SGD
+
+14. b) When gradients are exploding
+    - Prevents unstable training from large gradients
+
+15. b) To prevent overfitting
+    - Stops training when validation performance starts degrading
+
+16. b) After each epoch
+    - Balances monitoring frequency with training efficiency
+
+17. b) Better final convergence
+    - Allows fine-tuning of optimization process
+
+18. b) When validation loss improves
+    - Saves best performing model states
+
+19. b) To tune hyperparameters
+    - Provides unbiased performance estimation for tuning
+
+20. b) Mean Squared Error
+    - Appropriate for continuous value prediction
+
+Model Evaluation:
+21. b) Average price prediction error in the same units as house prices
+    - RMSE maintains original units
+
+22. b) 80% of variance in prices is explained by the model
+    - R-squared represents explained variance
+
+23. b) It's less sensitive to outliers
+    - MAE provides different perspective on errors
+
+24. b) With small to medium-sized datasets
+    - More important when data is limited
+
+25. b) Validation loss higher than training loss
+    - Classic sign of overfitting
+
+26. c) Investigate and make informed decisions
+    - Context matters for outlier handling
+
+27. c) Validation metrics on same data split
+    - Provides fair comparison between models
+
+28. b) When outliers significantly affect results
+    - Median less sensitive to extreme values
+
+29. c) Using prediction intervals
+    - Provides estimate of prediction uncertainty
+
+30. b) To identify systematic prediction errors
+    - Helps understand model weaknesses
+
+Deployment:
+31. c) Preprocessing parameters (like StandardScaler)
+    - Required for consistent data processing
+
+32. b) Use the same strategy as during training
+    - Maintains consistency between training and inference
+
+33. c) Monitoring prediction errors and distribution shifts
+    - Catches performance degradation
+
+34. c) Based on application requirements and latency needs
+    - Depends on specific use case
+
+35. c) Reproducibility and rollback capability
+    - Essential for production systems
+
+36. c) Use A/B testing and gradual rollout
+    - Safer deployment strategy
+
+37. c) Save weights, preprocessing parameters, and configuration
+    - Everything needed for reproduction
+
+38. c) Implement detection and handling strategy
+    - Robust approach to unexpected inputs
+
+39. c) Load balancing and resource management
+    - Critical for production performance
+
+40. c) Full specifications including training data, parameters, and limitations
+    - Complete documentation essential for maintenance 

@@ -1,0 +1,67 @@
+WEEK 8: CONVOLUTIONAL NEURAL NETWORKS
+
+1. From Fully Connected to Convolutional
+   - Motivation for CNNs
+     * Parameter efficiency
+     * Spatial relationships
+     * Translation invariance
+   - Basic CNN operations
+     * Convolution filters
+     * Feature maps
+     * Receptive fields
+
+2. Core CNN Components
+   - Convolutional layers
+     * Kernel size and stride
+     * Padding options
+     * Channel dimensions
+   - Pooling operations
+     * Max pooling
+     * Average pooling
+     * Spatial reduction
+   - Activation functions
+     * ReLU in CNNs
+     * Feature map activation
+     * Non-linearity importance
+
+3. ResNet Architecture
+   - Residual Learning
+     * Skip connections
+     * Identity mappings
+     * Gradient flow benefits
+   - ResNet Variants
+     * ResNet-50
+     * ResNet-101
+     * ResNet-152
+   - Impact on Deep Learning
+     * Solving vanishing gradients
+     * Training very deep networks
+     * Feature hierarchy
+
+4. Transfer Learning with CNNs
+   - Pre-trained Models
+     * ImageNet models
+     * Feature extractors
+     * Layer freezing strategies
+   - Fine-tuning Approaches
+     * Full fine-tuning
+     * Partial fine-tuning
+     * Linear probing
+   - Domain Adaptation
+     * Cross-domain transfer
+     * Few-shot learning
+     * Handling domain shift
+   - Example: ResNet-50
+
+
+Required Reading:
+- "Gradient-Based Learning Applied to Document Recognition" (LeCun et al.)
+- "Deep Residual Learning for Image Recognition" (He et al.)
+- "How transferable are features in deep neural networks?" (Yosinski et al.)
+
+Learning Objectives:
+- Understand CNN fundamentals and operations
+- Master different types of CNN layers
+- Grasp ResNet architecture and its importance
+- Apply transfer learning effectively
+- Adapt pre-trained models to new tasks 

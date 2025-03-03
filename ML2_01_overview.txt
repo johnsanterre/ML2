@@ -1,0 +1,42 @@
+WEEK 1: INTRODUCTION TO DEEP LEARNING
+
+1. Introduction and Context
+   - Brief history of machine learning
+   - Types of machine learning
+     * Supervised learning
+     * Unsupervised learning
+     * Reinforcement learning
+   - Why deep learning? 
+   - Key applications and successes
+   - Evolution of deep learning frameworks
+
+2. Basic Neural Network Concepts
+   - From logistic regression to single neuron
+   - Basic architecture of neural networks
+     * Layers
+     * Weights and biases
+     * Forward propagation intuition
+   - Common activation functions
+     * Sigmoid
+     * ReLU
+   - Simple loss functions introduction
+
+3. Deep Learning Frameworks
+   - PyTorch vs TensorFlow comparison
+     * Philosophy and approach differences
+     * Dynamic vs Static graphs
+     * Eager execution
+     * Development workflow differences
+   - Basic tensor operations overview
+   - Simple example concepts in both frameworks
+   - PyTorch's role in research
+   - TensorFlow's role in production
+
+Required Reading:
+- Deep Learning Book (Goodfellow et al.) - Chapter 1
+
+Learning Objectives:
+- Understand the fundamental concepts of deep learning
+- Differentiate between types of machine learning
+- Grasp basic neural network architecture
+- Understand the key differences between PyTorch and TensorFlow 

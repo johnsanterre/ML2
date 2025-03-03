@@ -1,0 +1,266 @@
+# ML2 Week 2 Quiz: Neural Networks Fundamentals & Backpropagation
+
+## Multiple Choice Questions (200 points, 5 points each)
+
+Forward Propagation:
+
+1. In a neural network's forward pass, what happens at each linear layer?
+   a) Element-wise multiplication
+   b) Matrix multiplication followed by bias addition
+   c) Only bias addition
+   d) Only matrix multiplication
+
+2. What does the ReLU activation function do?
+   a) Outputs the input unchanged
+   b) Returns max(0, x) for each input x
+   c) Normalizes the input
+   d) Computes the gradient
+
+3. In the computational graph, what does each edge represent?
+   a) A weight matrix
+   b) An activation function
+   c) The flow of data between operations
+   d) The learning rate
+
+4. Why do we cache intermediate values during forward propagation?
+   a) To save memory
+   b) To use them in backpropagation
+   c) To speed up training
+   d) To reduce model size
+
+Backpropagation:
+
+5. The chain rule in backpropagation helps us:
+   a) Speed up forward propagation
+   b) Calculate gradients for each layer
+   c) Initialize weights
+   d) Choose learning rates
+
+6. During backpropagation, gradients flow:
+   a) Forward through the network
+   b) Backward through the network
+   c) Randomly through the network
+   d) Sideways through the network
+
+7. The gradient of ReLU with respect to its input is:
+   a) Always 1
+   b) Always 0
+   c) 1 where input > 0, 0 elsewhere
+   d) The input itself
+
+8. Why do we sum the gradients over the batch dimension?
+   a) To save memory
+   b) To compute the average gradient
+   c) To speed up training
+   d) To prevent overfitting
+
+Loss Functions:
+
+9. Mean Squared Error (MSE) is most appropriate for:
+   a) Classification tasks
+   b) Regression tasks
+   c) Clustering tasks
+   d) Ranking tasks
+
+10. The gradient of MSE with respect to predictions is:
+    a) y_pred - y_true
+    b) 2(y_pred - y_true)/n
+    c) y_true - y_pred
+    d) (y_true - y_pred)^2
+
+11. Cross-entropy loss is typically used for:
+    a) Regression problems
+    b) Classification problems
+    c) Clustering
+    d) Dimensionality reduction
+
+12. Why do we add epsilon in cross-entropy loss?
+    a) To improve accuracy
+    b) To prevent log(0)
+    c) To speed up training
+    d) To reduce memory usage
+
+Optimization:
+
+13. In SGD, what does the learning rate control?
+    a) The batch size
+    b) The step size in gradient descent
+    c) The number of epochs
+    d) The model architecture
+
+14. Gradient clipping helps prevent:
+    a) Vanishing gradients
+    b) Exploding gradients
+    c) Underfitting
+    d) Slow convergence
+
+15. He initialization is designed for:
+    a) Sigmoid activation
+    b) ReLU activation
+    c) Tanh activation
+    d) Linear activation
+
+16. The purpose of optimizer.zero_grad() is to:
+    a) Reset the model
+    b) Clear previous gradient computations
+    c) Initialize weights
+    d) Stop training
+
+Training Process:
+
+17. What happens if the learning rate is too large?
+    a) Training is too slow
+    b) Training might diverge
+    c) Model underfits
+    d) Memory usage increases
+
+18. Batch normalization helps with:
+    a) Memory efficiency
+    b) Training stability
+    c) Model compression
+    d) Data preprocessing
+
+19. Learning rate scheduling is used to:
+    a) Increase training speed
+    b) Adapt the learning rate during training
+    c) Reduce memory usage
+    d) Initialize weights
+
+20. The validation set is used to:
+    a) Train the model
+    b) Update weights
+    c) Monitor overfitting
+    d) Speed up training
+
+Implementation Details:
+
+21. When implementing backpropagation, we need to store:
+    a) Only the final output
+    b) Intermediate activations
+    c) Only the input
+    d) Only the weights
+
+22. The shape of the gradient with respect to weights is:
+    a) Same as input shape
+    b) Same as output shape
+    c) Same as weight matrix shape
+    d) Always a scalar
+
+23. In PyTorch, loss.backward() computes:
+    a) The forward pass
+    b) The gradients
+    c) The predictions
+    d) The learning rate
+
+24. Model checkpointing should save:
+    a) Only the weights
+    b) Weights and optimizer state
+    c) Only the architecture
+    d) Only the gradients
+
+Common Issues:
+
+25. Vanishing gradients often occur when:
+    a) Learning rate is too high
+    b) Network is too shallow
+    c) Deep networks use sigmoid/tanh
+    d) Batch size is too small
+
+26. A sign of overfitting is:
+    a) High training and validation loss
+    b) Low training loss, high validation loss
+    c) High training loss, low validation loss
+    d) Low training and validation loss
+
+27. Gradient explosion can be detected by:
+    a) NaN values in loss
+    b) Slow training
+    c) Perfect accuracy
+    d) Low memory usage
+
+28. ReLU activation helps with:
+    a) Memory efficiency
+    b) Vanishing gradients
+    c) Data preprocessing
+    d) Weight initialization
+
+Advanced Concepts:
+
+29. Momentum in optimization:
+    a) Slows down training
+    b) Helps escape local minima
+    c) Reduces memory usage
+    d) Initializes weights
+
+30. Layer normalization:
+    a) Replaces activation functions
+    b) Stabilizes training
+    c) Reduces model capacity
+    d) Increases training time
+
+31. Dropout during training:
+    a) Speeds up computation
+    b) Reduces overfitting
+    c) Increases model size
+    d) Stabilizes gradients
+
+32. The optimal batch size usually:
+    a) Is as large as memory allows
+    b) Is as small as possible
+    c) Balances speed and stability
+    d) Doesn't matter
+
+Practical Considerations:
+
+33. When implementing a neural network, you should first:
+    a) Optimize hyperparameters
+    b) Get a simple version working
+    c) Add all possible features
+    d) Maximize model size
+
+34. Learning rate warmup helps with:
+    a) Memory efficiency
+    b) Training stability
+    c) Model compression
+    d) Data preprocessing
+
+35. Early stopping prevents:
+    a) Slow training
+    b) Memory issues
+    c) Overfitting
+    d) Underfitting
+
+36. Weight decay primarily helps with:
+    a) Training speed
+    b) Regularization
+    c) Memory usage
+    d) Initialization
+
+Debugging:
+
+37. If loss becomes NaN, first check:
+    a) Dataset size
+    b) Learning rate
+    c) Batch size
+    d) Model architecture
+
+38. If training is too slow, consider:
+    a) Using a larger learning rate
+    b) Adding more layers
+    c) Using smaller batches
+    d) Adding regularization
+
+39. If validation loss isn't decreasing:
+    a) Immediately stop training
+    b) Add more layers
+    c) Check learning rate and architecture
+    d) Increase batch size
+
+40. When implementing backprop, most errors come from:
+    a) Learning rate choice
+    b) Batch size selection
+    c) Gradient computation
+    d) Model architecture
+
+## Bonus Question (10 extra points)
+41. Explain how you would implement a custom backward pass for a new type of layer, including considerations for the chain rule and gradient computation. 

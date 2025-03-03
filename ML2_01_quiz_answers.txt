@@ -1,0 +1,140 @@
+# ML2 Week 1 Quiz: Answer Key
+
+Historical Context:
+1. b) AlexNet winning ImageNet competition
+   - Marked practical success of deep learning and started the modern era
+
+2. b) Automatic feature learning
+   - Deep learning automatically learns features from data, unlike traditional ML
+
+3. c) Automatic feature extraction
+   - Networks learn hierarchical features without manual engineering
+
+4. a) Lack of computational power
+   - Early networks couldn't scale due to computational limitations
+
+Neural Network Fundamentals:
+5. b) Weighted sum plus bias, then activation
+   - Basic neuron computation: f(Wx + b)
+
+6. b) Add non-linearity
+   - Makes networks capable of learning complex patterns
+
+7. b) Returns max(0, x)
+   - ReLU zeros negative values, preserves positive ones
+
+8. b) ReLU activation
+   - Specifically designed for ReLU's characteristics
+
+Framework Comparison:
+9. b) Dynamic computation graphs
+   - Allows flexible model structure during runtime
+
+10. b) Set training mode for layers like dropout
+    - Affects behavior of training-specific layers
+
+11. b) Dynamic vs static graphs
+    - Fundamental architectural difference between frameworks
+
+12. b) Batching, shuffling, and parallel loading
+    - Handles all aspects of efficient data loading
+
+Basic Training:
+13. b) Training stability and speed
+    - Affects gradient estimation and computation time
+
+14. b) Clear previous gradients
+    - Prevents accumulation from previous batches
+
+15. c) Step size in optimization
+    - Controls how much weights update each step
+
+16. c) Tuning hyperparameters
+    - Used to evaluate model during development
+
+Deep Learning Applications:
+17. b) Image processing
+    - Designed for spatial feature extraction
+
+18. b) Sequential data
+    - Handles time-dependent patterns
+
+19. b) Text processing
+    - Converts discrete tokens to continuous vectors
+
+20. b) Reduces spatial dimensions
+    - Downsamples feature maps
+
+Implementation:
+21. b) Start with a simple architecture
+    - Makes debugging and improvement easier
+
+22. b) Too high learning rate
+    - Causes unstable updates
+
+23. b) Exploding gradients
+    - Prevents gradient values from growing too large
+
+24. b) Classification
+    - Measures probability distribution differences
+
+Best Practices:
+25. b) Learning rate and loss curves
+    - Most common source of convergence issues
+
+26. b) Regularly during training
+    - Allows early detection of problems
+
+27. c) Tuned for the problem
+    - No single value works for all cases
+
+28. b) Training stability
+    - Normalizes layer inputs for better training
+
+Common Issues:
+29. b) Low training, high validation loss
+    - Classic sign of overfitting
+
+30. a) High training and validation loss
+    - Model isn't learning effectively
+
+31. b) Learning rate and gradients
+    - Most common cause of training issues
+
+32. c) Batch size too large
+    - Memory usage scales with batch size
+
+Framework Usage:
+33. b) Inference
+    - Disables gradient computation for prediction
+
+34. b) Weights and optimizer state
+    - Required for complete training resumption
+
+35. b) Generalization
+    - Increases effective training data
+
+36. c) Overfitting
+    - Stops training when validation performance degrades
+
+Practical Considerations:
+37. b) Simple working example
+    - Establishes baseline before complexity
+
+38. b) Checking basic cases
+    - Verifies fundamental functionality
+
+39. b) Memory and stability
+    - Must balance hardware constraints and training dynamics
+
+40. b) Loss and validation metrics
+    - Key indicators of training progress
+
+Bonus:
+41. Key points:
+    - Larger batches need larger learning rates
+    - Small batches provide noise for regularization
+    - Large batches give more stable gradients
+    - Memory constraints often limit batch size
+    - Learning rate should scale with batch size
+    - Training stability decreases with very large batches 

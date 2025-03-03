@@ -1,0 +1,266 @@
+# ML2 Week 1 Quiz: Introduction to Deep Learning
+
+## Multiple Choice Questions (200 points, 5 points each)
+
+Historical Context:
+
+1. Which development marked the beginning of the deep learning revolution?
+   a) Invention of backpropagation
+   b) AlexNet winning ImageNet competition
+   c) Development of perceptrons
+   d) Creation of decision trees
+
+2. What distinguishes deep learning from traditional machine learning?
+   a) Use of computers
+   b) Automatic feature learning
+   c) Supervised learning
+   d) Data preprocessing
+
+3. The main advantage of deep learning over traditional ML is:
+   a) Always faster training
+   b) Less data required
+   c) Automatic feature extraction
+   d) Simpler models
+
+4. Early neural networks failed to gain traction due to:
+   a) Lack of computational power
+   b) No good applications
+   c) Too much data
+   d) Too simple architecture
+
+Neural Network Fundamentals:
+
+5. A single neuron computes:
+   a) The sum of inputs
+   b) Weighted sum plus bias, then activation
+   c) Only matrix multiplication
+   d) Random values
+
+6. The purpose of activation functions is to:
+   a) Speed up computation
+   b) Add non-linearity
+   c) Reduce memory usage
+   d) Initialize weights
+
+7. ReLU activation function:
+   a) Returns input unchanged
+   b) Returns max(0, x)
+   c) Returns values between 0 and 1
+   d) Returns random values
+
+8. He initialization is designed for:
+   a) Linear layers
+   b) ReLU activation
+   c) Output layers
+   d) Batch normalization
+
+Framework Comparison:
+
+9. PyTorch's main advantage over TensorFlow is:
+   a) Better performance
+   b) Dynamic computation graphs
+   c) Easier installation
+   d) Smaller models
+
+10. In PyTorch, model.train() is used to:
+    a) Start training
+    b) Set training mode for layers like dropout
+    c) Compute gradients
+    d) Initialize weights
+
+11. The main difference between PyTorch and TensorFlow is:
+    a) Language support
+    b) Dynamic vs static graphs
+    c) Performance
+    d) Model size
+
+12. DataLoader in PyTorch provides:
+    a) Only data loading
+    b) Batching, shuffling, and parallel loading
+    c) Model training
+    d) Optimization
+
+Basic Training:
+
+13. Batch size affects:
+    a) Model architecture
+    b) Training stability and speed
+    c) Number of epochs
+    d) Learning rate
+
+14. The purpose of optimizer.zero_grad() is:
+    a) Reset the model
+    b) Clear previous gradients
+    c) Stop training
+    d) Initialize weights
+
+15. Learning rate determines:
+    a) Batch size
+    b) Model architecture
+    c) Step size in optimization
+    d) Number of epochs
+
+16. Validation set is used for:
+    a) Training the model
+    b) Testing final performance
+    c) Tuning hyperparameters
+    d) Data preprocessing
+
+Deep Learning Applications:
+
+17. Convolutional layers are primarily used for:
+    a) Text processing
+    b) Image processing
+    c) Time series
+    d) Tabular data
+
+18. LSTM networks are best suited for:
+    a) Image classification
+    b) Sequential data
+    c) Tabular data
+    d) Random data
+
+19. Embedding layers are commonly used in:
+    a) Image processing
+    b) Text processing
+    c) Numerical data
+    d) Audio processing
+
+20. MaxPool2d layer:
+    a) Increases image size
+    b) Reduces spatial dimensions
+    c) Adds features
+    d) Changes color space
+
+Implementation:
+
+21. When implementing a neural network, you should first:
+    a) Add all possible features
+    b) Start with a simple architecture
+    c) Use maximum complexity
+    d) Skip validation
+
+22. The most common cause of NaN losses is:
+    a) Wrong data type
+    b) Too high learning rate
+    c) Small batch size
+    d) Wrong model architecture
+
+23. Gradient clipping helps prevent:
+    a) Slow training
+    b) Exploding gradients
+    c) Small gradients
+    d) Memory issues
+
+24. Cross-entropy loss is typically used for:
+    a) Regression
+    b) Classification
+    c) Clustering
+    d) Dimensionality reduction
+
+Best Practices:
+
+25. When training fails to converge, first check:
+    a) Hardware specifications
+    b) Learning rate and loss curves
+    c) Model architecture
+    d) Batch size
+
+26. Model validation should be done:
+    a) Only at the end
+    b) Regularly during training
+    c) Once at the start
+    d) When training is slow
+
+27. The learning rate should be:
+    a) As large as possible
+    b) As small as possible
+    c) Tuned for the problem
+    d) Fixed at 0.01
+
+28. Batch normalization helps with:
+    a) Memory usage
+    b) Training stability
+    c) Model size
+    d) Data loading
+
+Common Issues:
+
+29. Overfitting is indicated by:
+    a) High training and validation loss
+    b) Low training, high validation loss
+    c) High training, low validation loss
+    d) Low training and validation loss
+
+30. Underfitting is indicated by:
+    a) High training and validation loss
+    b) Low training, high validation loss
+    c) High training, low validation loss
+    d) Low training and validation loss
+
+31. When loss doesn't decrease, check:
+    a) Hardware
+    b) Learning rate and gradients
+    c) Data loading
+    d) Model size
+
+32. GPU memory issues are often caused by:
+    a) Slow code
+    b) Wrong learning rate
+    c) Batch size too large
+    d) Small model
+
+Framework Usage:
+
+33. torch.no_grad() is used for:
+    a) Training
+    b) Inference
+    c) Data loading
+    d) Initialization
+
+34. Model checkpointing should save:
+    a) Only weights
+    b) Weights and optimizer state
+    c) Only architecture
+    d) Only gradients
+
+35. Data augmentation helps with:
+    a) Training speed
+    b) Generalization
+    c) Memory usage
+    d) Model architecture
+
+36. Early stopping prevents:
+    a) Slow training
+    b) Memory issues
+    c) Overfitting
+    d) Underfitting
+
+Practical Considerations:
+
+37. When implementing a new model, start with:
+    a) Complex architecture
+    b) Simple working example
+    c) Maximum features
+    d) Minimum data
+
+38. Debug training by first:
+    a) Adding features
+    b) Checking basic cases
+    c) Increasing model size
+    d) Changing framework
+
+39. Choose batch size based on:
+    a) Personal preference
+    b) Memory and stability
+    c) Framework default
+    d) Dataset size
+
+40. Monitor during training:
+    a) Only final accuracy
+    b) Loss and validation metrics
+    c) Only training speed
+    d) Only memory usage
+
+## Bonus Question (10 extra points)
+41. Explain the relationship between batch size, learning rate, and training stability. Include considerations for both small and large batch training. 

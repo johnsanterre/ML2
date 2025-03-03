@@ -1,0 +1,62 @@
+WEEK 6: FROM AUTOENCODERS TO EMBEDDINGS
+
+1. Understanding Word Embeddings
+   - Word2Vec introduction
+     * CBOW and Skip-gram models
+     * Context windows
+     * Negative sampling
+   - Properties of word embeddings
+     * Semantic relationships
+     * Arithmetic with word vectors
+     * Analogies (king - man + woman = queen)
+   - Visualization techniques
+     * t-SNE for word embeddings
+     * Exploring semantic spaces
+
+2. Beyond Word2Vec
+   - Modern embedding approaches
+     * GloVe embeddings
+     * FastText and subword information
+     * Contextual vs static embeddings
+   - Multi-modal embeddings
+     * Image and text
+     * Cross-modal relationships
+     * Joint embedding spaces
+
+3. Training Embeddings
+   - Architecture considerations
+     * Embedding layer implementation
+     * Loss functions for embeddings
+     * Batch construction
+   - Training strategies
+     * Pre-training vs task-specific
+     * Fine-tuning embeddings
+     * Transfer learning with embeddings
+   - Handling challenges
+     * Rare words
+     * Out-of-vocabulary words
+     * Domain adaptation
+
+4. Practical Applications
+   - Recommendation systems
+     * User-item embeddings
+     * Collaborative filtering
+     * Cold start problems
+   - Information retrieval
+     * Document similarity
+     * Semantic search
+     * Cross-lingual applications
+   - Analysis tools
+     * Bias detection
+     * Embedding probing tasks
+     * Quality evaluation
+
+Required Reading:
+- "Efficient Estimation of Word Representations in Vector Space" (Mikolov et al.)
+- "GloVe: Global Vectors for Word Representation" (Pennington et al.)
+
+Learning Objectives:
+- Understand the transition from autoencoders to embeddings
+- Master word embedding concepts and training
+- Implement embedding-based applications
+- Evaluate embedding quality and characteristics 

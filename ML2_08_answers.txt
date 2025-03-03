@@ -1,0 +1,48 @@
+WEEK 8: CONVOLUTIONAL NEURAL NETWORKS - ANSWER KEY
+
+1. b) Parameter sharing and spatial relationships
+2. b) The spatial extent of connectivity
+3. b) To preserve spatial dimensions
+4. b) Max pooling
+5. b) To stabilize training
+6. b) Vanishing gradients
+7. b) To preserve learned features
+8. c) Convolution -> BatchNorm -> ReLU
+9. b) Step size of filter movement
+10. b) It prevents vanishing gradients
+11. c) Converting feature maps to vector form
+12. b) Skip connection
+13. c) Output of convolution
+14. a) To detect different features
+15. b) Reduces spatial dimensions
+16. b) Lower for pre-trained layers
+17. b) Dimension reduction
+18. b) Stabilizes gradients
+19. b) Number of filters
+20. b) Better feature hierarchy
+21. b) Easier optimization
+22. c) Increases with depth
+23. a) Channel-wise feature mixing
+24. b) Match new task classes
+25. c) Learned feature reuse
+26. c) Maintains input size
+27. b) Increase receptive field
+28. b) Build feature hierarchy
+29. c) Number of filters and kernel size
+30. c) Improves generalization
+
+Note: All answers are derived from the Week 8 textbook material on Convolutional Neural Networks. Each answer represents the most accurate and complete response based on the content covered in the course.
+
+Explanations for key concepts:
+
+Parameter Sharing (Q1): CNNs use the same weights across different spatial locations, dramatically reducing parameters while preserving spatial relationships.
+
+Batch Normalization (Q5): Stabilizes training by normalizing layer inputs, allowing higher learning rates and reducing internal covariate shift.
+
+Skip Connections (Q6): ResNet's key innovation addresses vanishing gradients by providing direct paths for gradient flow through the network.
+
+Transfer Learning (Q7, Q16, Q24): Pre-trained models capture general features that can be preserved while adapting to new tasks through careful fine-tuning.
+
+Feature Hierarchy (Q28): Multiple convolutional layers build increasingly complex feature representations, from simple edges to complex patterns.
+
+Data Augmentation (Q30): Improves model generalization by exposing the network to various transformed versions of the training data. 

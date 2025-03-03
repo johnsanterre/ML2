@@ -1,0 +1,243 @@
+WEEK 10: INTRODUCTION TO LARGE LANGUAGE MODELS - QUIZ QUESTIONS
+
+1. What was a key limitation of n-gram models in language processing?
+   a) They were too computationally expensive
+   b) They couldn't capture long-range dependencies
+   c) They required too much training data
+   d) They were too difficult to implement
+
+2. Why did RNNs struggle with long sequences?
+   a) Lack of processing power
+   b) The vanishing gradient problem
+   c) Too many parameters
+   d) Insufficient training data
+
+3. What key innovation did the Transformer architecture introduce?
+   a) Recurrent connections
+   b) Self-attention mechanisms
+   c) Convolutional layers
+   d) Recursive processing
+
+4. What have scaling laws revealed about language models?
+   a) Larger models always perform worse
+   b) Performance improves predictably with increased scale
+   c) Model size doesn't affect performance
+   d) Smaller models are more efficient
+
+5. How has compute requirements for LLMs changed over time?
+   a) Decreased steadily
+   b) Remained constant
+   c) Grown exponentially
+   d) Fluctuated randomly
+
+6. What is a critical factor in data scaling for LLMs?
+   a) Only quantity matters
+   b) Only quality matters
+   c) Both quantity and quality matter
+   d) Neither quantity nor quality matter
+
+7. What key capability did GPT-3 demonstrate?
+   a) Faster training
+   b) Few-shot learning without fine-tuning
+   c) Perfect accuracy
+   d) Smaller model size
+
+8. What is the primary training objective in next token prediction?
+   a) Classification
+   b) Clustering
+   c) Predicting the next word in a sequence
+   d) Image recognition
+
+9. How does masked language modeling differ from causal language modeling?
+   a) It uses bidirectional context
+   b) It's always more efficient
+   c) It requires less data
+   d) It's faster to train
+
+10. What is a key challenge in web-scale training data?
+    a) Too little data available
+    b) Filtering low-quality content
+    c) High cost of storage
+    d) Slow download speeds
+
+11. What technique is used to handle models too large for single GPU memory?
+    a) Data compression
+    b) Model parallelism
+    c) Reducing model size
+    d) Using smaller datasets
+
+12. What is Zero Redundancy Optimizer (ZeRO)?
+    a) A training algorithm
+    b) A memory optimization technique
+    c) A data compression method
+    d) A model architecture
+
+13. What is a common challenge in training stability at scale?
+    a) Network connectivity
+    b) Gradient explosion
+    c) Hardware failures
+    d) Power consumption
+
+14. What is in-context learning?
+    a) Traditional supervised learning
+    b) Adaptation through prompts without parameter updates
+    c) Pre-training on specific domains
+    d) Fine-tuning on new tasks
+
+15. How do few-shot learning capabilities relate to model size?
+    a) They decrease with size
+    b) They improve with scale
+    c) They are unrelated to size
+    d) They peak at medium size
+
+16. What characterizes zero-shot generalization in LLMs?
+    a) Requiring many examples
+    b) Performing tasks from instructions alone
+    c) Only working on trained tasks
+    d) Needing fine-tuning
+
+17. What do attention patterns in LLMs reveal?
+    a) Model size requirements
+    b) Training data quality
+    c) Specialized head functions
+    d) Hardware requirements
+
+18. How is knowledge stored in LLMs?
+    a) In a centralized database
+    b) In specific neurons
+    c) Distributed across parameters
+    d) In external memory
+
+19. How do token representations change through model layers?
+    a) They remain constant
+    b) They become more context-dependent
+    c) They get simpler
+    d) They lose information
+
+20. What is a hallucination in LLM context?
+    a) A training error
+    b) A hardware malfunction
+    c) Plausible but incorrect output
+    d) A type of attention mechanism
+
+21. What type of tasks often reveal reasoning gaps in LLMs?
+    a) Text generation
+    b) Logical and mathematical problems
+    c) Language translation
+    d) Sentiment analysis
+
+22. How do bias issues manifest in LLMs?
+    a) Only in obvious ways
+    b) Only in technical errors
+    c) In both obvious and subtle ways
+    d) Only in specific tasks
+
+23. What role do lower layers typically play in LLMs?
+    a) Semantic processing
+    b) World knowledge
+    c) Syntactic structure
+    d) Factual verification
+
+24. What is a key feature of PaLM's architecture?
+    a) Smaller model size
+    b) Advanced parallelization
+    c) Simpler attention mechanism
+    d) Reduced parameter count
+
+25. What aspect of training data has become increasingly important?
+    a) Size only
+    b) Speed of collection
+    c) Diverse representation
+    d) Data age
+
+26. How do LLMs handle context-dependent interpretation?
+    a) Through external rules
+    b) Using fixed meanings
+    c) Via evolving representations
+    d) By ignoring context
+
+27. What is a key challenge in distributed training?
+    a) Hardware cost
+    b) Communication overhead
+    c) Software licensing
+    d) Data storage
+
+28. How do emergent capabilities typically appear in LLMs?
+    a) Through explicit programming
+    b) With smaller scale
+    c) Naturally at larger scales
+    d) Through fine-tuning only
+
+29. What characterizes causal language modeling?
+    a) Bidirectional attention
+    b) Random token access
+    c) Left-to-right attention
+    d) Parallel processing
+
+30. What is a key consideration in masking strategy?
+    a) Model size
+    b) Hardware capabilities
+    c) Token selection patterns
+    d) Training speed
+
+31. How do deeper layers in LLMs typically function?
+    a) Processing basic syntax
+    b) Handling abstract semantics
+    c) Managing input only
+    d) Storing raw data
+
+32. What challenge does training stability present?
+    a) Hardware requirements
+    b) Data storage
+    c) Balance of training parameters
+    d) Network connectivity
+
+33. How do LLMs typically handle subword tokens?
+    a) Ignore them
+    b) Process them separately
+    c) Include them in context
+    d) Remove them entirely
+
+34. What is a key feature of modern LLM training data?
+    a) Small size
+    b) Single source
+    c) Web-scale volume
+    d) Fixed structure
+
+35. How do attention heads typically specialize?
+    a) They don't specialize
+    b) In capturing different aspects
+    c) Only for syntax
+    d) Only for semantics
+
+36. What characterizes the relationship between model size and performance?
+    a) Random correlation
+    b) Negative correlation
+    c) Predictable improvement
+    d) No relationship
+
+37. How do LLMs typically handle task adaptation?
+    a) Through hardware changes
+    b) Via prompt engineering
+    c) Only through retraining
+    d) With fixed responses
+
+38. What is a key challenge in bias mitigation?
+    a) Technical limitations
+    b) Hardware constraints
+    c) Embedded nature of biases
+    d) Training speed
+
+39. How do LLMs typically process long-range dependencies?
+    a) Through recurrence
+    b) Via attention mechanisms
+    c) Using fixed windows
+    d) With external memory
+
+40. What characterizes the evolution of LLM capabilities?
+    a) Random improvements
+    b) Steady, predictable growth
+    c) Decreasing capabilities
+    d) No change over time
+
+[Continue with questions 41-60...] 

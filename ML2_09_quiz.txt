@@ -1,0 +1,241 @@
+WEEK 9: FROM SUPERVISED TO GENERATIVE LEARNING - QUIZ QUESTIONS
+
+1. What is a primary limitation of supervised learning with respect to data labeling?
+   a) The process is too automated
+   b) It requires substantial human effort and expertise
+   c) Labels are always inconsistent
+   d) It's too fast to be reliable
+
+2. In medical imaging, why is labeled data particularly challenging to obtain?
+   a) Images are too large
+   b) Hospitals don't share data
+   c) Experienced radiologists must spend many hours annotating scans
+   d) The equipment is too expensive
+
+3. What is a key challenge with expert knowledge in data labeling?
+   a) Experts are too expensive
+   b) The pool of qualified annotators is small
+   c) Experts work too slowly
+   d) There are too many experts
+
+4. How do generative models differ from traditional supervised learning approaches?
+   a) They learn to reproduce the underlying data distribution
+   b) They only work with labeled data
+   c) They require more supervision
+   d) They can't handle complex patterns
+
+5. What is a key characteristic of self-supervised learning?
+   a) It requires external labels
+   b) It creates its own supervisory signals from raw data
+   c) It only works with images
+   d) It needs human supervision
+
+6. What distinguishes explicit from implicit generative models?
+   a) Explicit models are always better
+   b) Implicit models require more data
+   c) Explicit models directly learn probability distributions
+   d) Implicit models are always faster
+
+7. What is the primary purpose of the forward process in diffusion models?
+   a) To generate new data
+   b) To gradually destroy structure in data
+   c) To clean noisy data
+   d) To compress information
+
+8. Why is noise scheduling important in diffusion models?
+   a) It makes the model faster
+   b) It determines how information is destroyed
+   c) It reduces computational cost
+   d) It improves image quality
+
+9. What property makes the forward process in diffusion models mathematically tractable?
+   a) Gaussian distribution
+   b) Markov chain property
+   c) Linear transformation
+   d) Binary states
+
+10. What is the starting point of the reverse process in diffusion models?
+    a) Original data
+    b) Partially noisy data
+    c) Pure noise
+    d) Compressed data
+
+11. What role does score matching play in the reverse process of diffusion models?
+    a) It matches images to text
+    b) It estimates the gradient of log probability density
+    c) It schedules the learning rate
+    d) It determines the noise level
+
+12. Why is time conditioning important in diffusion models?
+    a) To track processing time
+    b) To schedule training steps
+    c) To help the model understand the current noise level
+    d) To speed up generation
+
+13. In which domain have diffusion models shown the most immediate success?
+    a) Audio processing
+    b) Image generation
+    c) Text analysis
+    d) Video creation
+
+14. What challenge do diffusion models face in text-to-text tasks?
+    a) The discrete nature of text
+    b) The lack of training data
+    c) The computational cost
+    d) The model size
+
+15. What is a key advantage of cross-modal generation in diffusion models?
+    a) Faster training time
+    b) Lower computational cost
+    c) Fine-grained control over generation
+    d) Simpler architecture
+
+16. What is the primary innovation of masked prediction tasks?
+    a) They require less data
+    b) They create self-supervised learning signals
+    c) They work faster than other methods
+    d) They need fewer parameters
+
+17. How does BERT implement masked prediction?
+    a) By removing all punctuation
+    b) By hiding parts of the input text
+    c) By scrambling words
+    d) By changing word order
+
+18. What is the advantage of varying masking patterns in self-supervised learning?
+    a) It makes training faster
+    b) It helps learn multiple scales of abstraction
+    c) It reduces computational cost
+    d) It simplifies the model architecture
+
+19. What is the core principle of contrastive learning?
+    a) Maximizing data efficiency
+    b) Creating and distinguishing between positive and negative pairs
+    c) Reducing model size
+    d) Speeding up training
+
+20. What constitutes a positive pair in contrastive learning?
+    a) Two different instances of data
+    b) Different views of the same instance
+    c) Any two similar inputs
+    d) Random data pairs
+
+21. What is the main advantage of momentum contrast?
+    a) Faster training speed
+    b) Lower memory usage
+    c) Comparison against more negative examples
+    d) Simpler implementation
+
+22. How does denoising relate to masked prediction?
+    a) They are completely different approaches
+    b) Denoising is a continuous form of masked prediction
+    c) They can't be used together
+    d) Denoising is always better
+
+23. What advantage do diffusion models have in representation learning?
+    a) They require less data
+    b) They learn representations at multiple scales
+    c) They train faster
+    d) They use less memory
+
+24. Why is the gradual nature of diffusion processes beneficial?
+    a) It makes training faster
+    b) It allows for more control over generation
+    c) It reduces computational requirements
+    d) It simplifies the model architecture
+
+25. What type of noise is typically used in the forward process of diffusion models?
+    a) Uniform noise
+    b) Gaussian noise
+    c) Binary noise
+    d) Poisson noise
+
+26. How does the variance curve typically progress in noise scheduling?
+    a) Linear increase
+    b) Starts slow and accelerates
+    c) Constant rate
+    d) Random variation
+
+27. What is a key benefit of the Markov property in diffusion models?
+    a) Faster processing
+    b) Better image quality
+    c) Simplified learning process
+    d) Reduced memory usage
+
+28. How do diffusion models handle the denoising process?
+    a) All at once
+    b) In random steps
+    c) Gradually step by step
+    d) Through compression
+
+29. What role does time conditioning play in the reverse process?
+    a) Speeds up generation
+    b) Improves quality
+    c) Helps identify noise level
+    d) Reduces computation
+
+30. What is a key challenge in applying diffusion models to text?
+    a) Lack of data
+    b) Discrete nature of text
+    c) Model size
+    d) Training time
+
+31. How do self-supervised learning approaches typically create training signals?
+    a) Through external labels
+    b) From the data's inherent structure
+    c) Using random noise
+    d) Through human feedback
+
+32. What is the relationship between contrastive learning and data augmentation?
+    a) They are unrelated
+    b) Augmentation creates different views for contrast
+    c) They can't be used together
+    d) Augmentation replaces contrast
+
+33. How does SimCLR demonstrate the effectiveness of contrastive learning?
+    a) Through faster training
+    b) Through state-of-the-art results
+    c) By using less data
+    d) By simplifying models
+
+34. What is the primary goal of the reverse process in diffusion models?
+    a) Data compression
+    b) Noise addition
+    c) Gradual reconstruction
+    d) Feature extraction
+
+35. How do diffusion models handle different stages of the denoising process?
+    a) With separate models
+    b) Through time conditioning
+    c) Using fixed steps
+    d) Random selection
+
+36. What makes cross-modal generation particularly interesting in diffusion models?
+    a) Faster processing
+    b) Lower cost
+    c) Relationship learning between modalities
+    d) Simpler architecture
+
+37. How do masked prediction tasks help in learning data structure?
+    a) By requiring external labels
+    b) Through data augmentation
+    c) By forcing understanding of context
+    d) By simplifying the data
+
+38. What advantage does momentum contrast offer in training?
+    a) Reduced memory requirements
+    b) Faster processing
+    c) Larger effective batch size
+    d) Simpler implementation
+
+39. How do diffusion models compare to traditional generative models?
+    a) They're always faster
+    b) They offer more controlled generation
+    c) They use less data
+    d) They're simpler to implement
+
+40. What is the key to successful self-supervised learning?
+    a) Large datasets
+    b) Powerful computers
+    c) Creating meaningful learning tasks from the data itself
+    d) External supervision 
