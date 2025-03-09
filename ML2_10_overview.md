@@ -1,75 +1,53 @@
-# Week 10: Advanced LLM Training Techniques
+WEEK 10: INTRODUCTION TO LARGE LANGUAGE MODELS
 
-## Overview
-This week explores advanced techniques for training and fine-tuning Large Language Models, focusing on efficiency, performance, and specialized adaptations.
+1. Evolution of Language Models
+   - Historical perspective
+     * N-gram models
+     * RNN-based models
+     * Transformer revolution
+   - Scaling laws
+     * Model size trends
+     * Compute requirements
+     * Data scaling
+   - Architecture developments
+     * GPT series evolution
+     * PaLM architecture
+     * Emergent capabilities
 
-## Learning Objectives
-By the end of this session, students will:
-- Master efficient fine-tuning methods
-- Understand parameter-efficient training
-- Implement specialized training techniques
-- Evaluate training effectiveness
-- Apply optimization strategies
+2. Pre-training and Foundation Models
+   - Training objectives
+     * Next token prediction
+     * Masked language modeling
+     * Causal language modeling
+   - Data considerations
+     * Web-scale datasets
+     * Data quality
+     * Filtering strategies
+   - Computational challenges
+     * Distributed training
+     * Memory optimization
+     * Training stability
 
-## Topics Covered
+3. Understanding LLM Behavior
+   - Model capabilities
+     * In-context learning
+     * Few-shot learning
+     * Zero-shot generalization
+   - Internal mechanics
+     * Attention patterns
+     * Knowledge storage
+     * Token representations
+   - Limitations
+     * Hallucinations
+     * Reasoning gaps
+     * Bias issues
 
-### 1. Efficient Fine-tuning Methods
-- LoRA (Low-Rank Adaptation)
-  * Theory and implementation
-  * Rank selection
-  * Adapter design
-  * Integration strategies
-- QLoRA
-  * Quantization approaches
-  * Memory optimization
-  * Performance trade-offs
-  * Implementation details
+Required Reading:
+- "Language Models are Few-Shot Learners" (GPT-3 paper)
+- "On the Opportunities and Risks of Foundation Models"
 
-### 2. Parameter-Efficient Training
-- Prefix Tuning
-  * Continuous prompts
-  * Prefix optimization
-  * Application scenarios
-- Prompt Tuning
-  * Soft prompts
-  * Prompt ensembles
-  * Optimization techniques
-
-### 3. Specialized Training Approaches
-- Instruction Fine-tuning
-  * Dataset preparation
-  * Template design
-  * Quality control
-  * Evaluation metrics
-- Domain Adaptation
-  * Data selection
-  * Adaptation strategies
-  * Performance monitoring
-  * Validation approaches
-
-### 4. Training Optimization
-- Memory Management
-  * Gradient checkpointing
-  * Mixed precision training
-  * Optimizer memory reduction
-  * Batch size optimization
-- Training Efficiency
-  * Learning rate scheduling
-  * Gradient accumulation
-  * Distributed training
-  * Pipeline parallelism
-
-## Required Reading
-- "LoRA: Low-Rank Adaptation of Large Language Models"
-- "QLoRA: Efficient Finetuning of Quantized LLMs"
-
-## Practical Exercises
-1. Implement LoRA fine-tuning
-2. Design parameter-efficient training
-3. Create specialized training pipeline
-4. Optimize training efficiency
-
-## Assessment
-- Implementation quality (40%)
-- Training efficiency (30%)
-- Performance metrics (30%) 
+Learning Objectives:
+- Understand the evolution and scaling of language models
+- Master key concepts in LLM pre-training
+- Grasp emergent behaviors in large models
+- Recognize capabilities and limitations 
