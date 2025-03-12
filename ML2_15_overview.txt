@@ -70,3 +70,7 @@ By the end of this session, students will:
 - Future applications design (40%)
 - Technical analysis (30%)
 - Impact assessment (30%) 
+
+
+
+
